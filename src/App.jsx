@@ -36,12 +36,10 @@ const App = () => {
       let endpoint = '';
 
       if (query) {
-        // Search mode
         endpoint = `${API_BASE_URL}/search/movie?query=${encodeURIComponent(
           query
         )}&include_adult=false&language=en-US`;
       } else {
-        // Display by selected type
         if (movieType === 'latest') {
           endpoint = `${API_BASE_URL}/discover/movie?sort_by=popularity.desc&with_original_language=ta&primary_release_date.gte=2024-01-01&release_date.lte=2025-06-13&vote_count.gte=10&region=IN`;
         } else if (movieType === 'upcoming') {
@@ -68,17 +66,16 @@ const App = () => {
 
       let results = data.results || [];
 
-      // For search: prioritize Tamil movies and sort by popularity
       if (query) {
         results.sort((a, b) => {
           const aTamil = a.original_language === 'ta' ? 1 : 0;
           const bTamil = b.original_language === 'ta' ? 1 : 0;
 
           if (aTamil !== bTamil) {
-            return bTamil - aTamil; // Tamil movies first
+            return bTamil - aTamil;
           }
 
-          return b.popularity - a.popularity; // More popular first
+          return b.popularity - a.popularity; 
         });
       }
 
@@ -111,15 +108,9 @@ const App = () => {
     fetchMovies(debouncedSearchTerm);
   }, [debouncedSearchTerm, movieType]);
 
-useEffect(() => {
-  const fetchTrending = async () => {
-    const movies = await getTrendingMovies();
-    console.log("Trending Movies:", movies);
-  };
-
-  fetchTrending();
-}, []);
-
+  useEffect(() => {
+    loadTrendingMovies();
+  },[]); 
 
   return (
     <main>
