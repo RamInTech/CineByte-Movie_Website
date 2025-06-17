@@ -111,9 +111,15 @@ const App = () => {
     fetchMovies(debouncedSearchTerm);
   }, [debouncedSearchTerm, movieType]);
 
-  useEffect(() => {
-    loadTrendingMovies();
-  },[]); // Fetch latest movies on initial load
+useEffect(() => {
+  const fetchTrending = async () => {
+    const movies = await getTrendingMovies();
+    console.log("Trending Movies:", movies);
+  };
+
+  fetchTrending();
+}, []);
+
 
   return (
     <main>
