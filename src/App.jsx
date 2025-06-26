@@ -115,12 +115,14 @@ const App = () => {
   return (
     <main>
       <div className="pattern" />
-
+      
       <div className="wrapper">
+        <h1>CineFlix</h1>
+        <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs'>Cinema Explorer📽️</span>
+           <span className='text-gradient text-xs'>Ramkumar🎬</span>
+        </div>
         <header>
-          <div className='flex flex-row justify-between m-0 '> <span className='text-gradient  font-extrabold'>Cinema</span>
-           <span className='text-gradient font-extrabold'>Ramkumar</span></div>
-          <img src="poster.png" alt="hero" className="mb-8 w-full" />
+          <img src="poster.png" alt="hero" className="mb-8 mt-1 w-full" />
           <h1>
             Find Your <span className='text-gradient'>Perfect Movie</span> Match Instantly
           </h1>
@@ -183,7 +185,7 @@ const App = () => {
           )}
         </section>
 
-        <footer className="text-center mt-15 py-2 border-t border-gray-400">
+        <footer className="text-center my-15 py-2 border-t border-gray-400">
           <h1 className="text-white text-3xl font-bold">Contact</h1>
           <p className="text-white  text-lg">
             Email: ramkumarm0621@gmail.com
