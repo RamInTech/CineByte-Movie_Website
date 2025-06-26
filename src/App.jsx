@@ -118,6 +118,8 @@ const App = () => {
 
       <div className="wrapper">
         <header>
+          <div className='flex flex-row justify-between m-0 '> <span className='text-gradient  font-extrabold'>Cinema</span>
+           <span className='text-gradient font-extrabold'>Ramkumar</span></div>
           <img src="poster.png" alt="hero" className="mb-8 w-130" />
           <h1>
             Find Your <span className='text-gradient'>Perfect Movie</span> Match Instantly
