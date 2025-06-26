@@ -41,7 +41,7 @@
   }
 
   header {
-    @apply sm:mt-10 mt-5;
+    @apply sm:mt-1 mt-1;
   }
 
   header img {
@@ -55,7 +55,7 @@
   }
 
   .wrapper {
-    @apply px-5 py-12 xs:p-0 max-w-7xl mx-auto flex flex-col relative z-10;
+    @apply px-1 py-1 xs:p-1 max-w-7xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
