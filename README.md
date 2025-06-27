@@ -34,8 +34,7 @@ CineByte is a sleek, responsive movie discovery web application that helps users
 
 ## 🌐 Live Demo
 
-**[View Deployment →](https://your-deployment-link.com)**  
-_(Replace with your actual deployment link)_
+**[View Deployment →](https://movie-website-hqv6.vercel.app/)**  
 
 ---
 
