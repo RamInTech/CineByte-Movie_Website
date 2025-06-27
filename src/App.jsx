@@ -117,7 +117,7 @@ const App = () => {
       <div className="pattern" />
       
       <div className="wrapper">
-        <h1>CineFlix</h1>
+        <h1>CineByte</h1>
         <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs hidden md:block '>Cinema Explorer📽️</span>
            <span className='text-gradient text-xs hidden md:block '>Ramkumar🎬</span>
         </div>
@@ -190,7 +190,7 @@ const App = () => {
           <p className="text-white  text-lg">
             Email: ramkumarm0621@gmail.com
           </p>
-          <p className="text-white text-sm mt-4"> <span className='text-gradient'>&copy; Ramkumar 2025 CineFlix. All rights reserved. </span></p>
+          <p className="text-white text-sm mt-4"> <span className='text-gradient'>&copy; CineByte. All rights reserved. </span></p>
         </footer>
       </div>
     </main>
