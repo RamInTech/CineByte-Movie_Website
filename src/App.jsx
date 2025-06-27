@@ -118,8 +118,8 @@ const App = () => {
       
       <div className="wrapper">
         <h1>CineFlix</h1>
-        <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs hidden md:block'>Cinema Explorer📽️</span>
-           <span className='text-gradient text-xs hidden md:block'>Ramkumar🎬</span>
+        <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs hidden md:block ml-2'>Cinema Explorer📽️</span>
+           <span className='text-gradient text-xs hidden md:block mr-2'>Ramkumar🎬</span>
         </div>
         <header>
           <img src="poster.png" alt="hero" className="mb-8 mt-1 w-full" />
