@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c6760167-ce7b-4c54-81d4-52ca2f8d7f5d)![image](https://github.com/user-attachments/assets/1d393eef-0887-475b-9c99-180c33b788c4)
+![image](https://github.com/user-attachments/assets/1d393eef-0887-475b-9c99-180c33b788c4)
 
 
 # 🎬 CineByte - Movie Discovery Platform
@@ -15,10 +15,10 @@ CineByte is a sleek, responsive movie discovery web application that helps users
 - ⭐ **Movie Details:** Shows rating, original language, and release year  
 - 📈 **Trending Section:** Displays the **Top 5 most searched movies** based on real user activity tracked using Appwrite
 ![image](https://github.com/user-attachments/assets/210dc687-a3bd-4e15-8804-1b8583a043ce)
+---
 ![image](https://github.com/user-attachments/assets/e32aba3d-bc82-464f-8564-062f40d55c18)
+---
 ![image](https://github.com/user-attachments/assets/a13e25b6-140d-4109-82f0-924f00463dad)
-
-  
 
 ---
 
