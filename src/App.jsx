@@ -118,8 +118,8 @@ const App = () => {
       
       <div className="wrapper">
         <h1>CineFlix</h1>
-        <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs hidden md:block ml-2'>Cinema Explorer📽️</span>
-           <span className='text-gradient text-xs hidden md:block mr-2'>Ramkumar🎬</span>
+        <div className='flex flex-row justify-between m-0 '> <span className='text-gradient text-xs hidden md:block '>Cinema Explorer📽️</span>
+           <span className='text-gradient text-xs hidden md:block '>Ramkumar🎬</span>
         </div>
         <header>
           <img src="poster.png" alt="hero" className="mb-8 mt-1 w-full" />
@@ -190,7 +190,7 @@ const App = () => {
           <p className="text-white  text-lg">
             Email: ramkumarm0621@gmail.com
           </p>
-          <p className="text-white text-sm mt-4"> <span className='text-gradient'>&copy; Ramkumar 2025 JobPortal. All rights reserved. </span></p>
+          <p className="text-white text-sm mt-4"> <span className='text-gradient'>&copy; Ramkumar 2025 CineFlix. All rights reserved. </span></p>
         </footer>
       </div>
     </main>
